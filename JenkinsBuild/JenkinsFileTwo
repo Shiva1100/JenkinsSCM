@@ -8,7 +8,7 @@ node {
         } else {
             echo "NOT This is from Unix"
         }
-        bat '"C:\\Windows\\System32\\cmd.exe" /c mvn test'
+        bat 'mkdir abc'
     }
 
     stage('Build') {
