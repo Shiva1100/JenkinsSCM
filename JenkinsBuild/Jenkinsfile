@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Step One - build is done'
+               build 'JobA'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Hello Test'
+             
+            }
+        }
+    }
+    post {
+        always{
+            echo "ran successsfully"
+            emailext body: 'Test Body content', subject: 'Test Email From Jenkins', to: 'shiva509203@gmail.com'
+        }
+        
+    }
+}
