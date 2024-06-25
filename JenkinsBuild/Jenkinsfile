@@ -2,6 +2,12 @@ pipeline {
     agent any
 
     stages {
+        stage('Checkout') {
+            steps {
+                // Declarative checkout step
+                checkout scm
+            }
+        }
         stage('Build') {
             steps {
                 echo 'Step One - build is done'
