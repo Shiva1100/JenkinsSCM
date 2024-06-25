@@ -8,7 +8,7 @@ node {
     stage('Build') {
         // Perform build steps
         echo 'This is scripted pipeline as it is started with node.'
-       sh 'mvn test'
+       bat 'mvn test'
     }
 
     stage('Test') {
