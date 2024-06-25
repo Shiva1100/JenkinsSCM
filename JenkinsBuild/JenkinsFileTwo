@@ -3,7 +3,7 @@ node {
     stage('Checkout') {
         // Checkout the code from SCM (Git, SVN, etc.)
         checkout scm
-        bat "mvn test"
+        bat '"C:\\Windows\\System32\\cmd.exe" /c mvn test'
     }
 
     stage('Build') {
