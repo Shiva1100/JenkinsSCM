@@ -3,12 +3,14 @@ node {
     stage('Checkout') {
         // Checkout the code from SCM (Git, SVN, etc.)
         checkout scm
+        bat "mvn test"
     }
 
     stage('Build') {
         // Perform build steps
         echo 'This is scripted pipeline as it is started with node.'
-       bat 'mvn test'
+       sh "mvn test"
+
     }
 
     stage('Test') {
