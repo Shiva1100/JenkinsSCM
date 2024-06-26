@@ -1,0 +1,39 @@
+node {
+    // Define the stages of the pipeline
+    stage('Checkout') {
+        // Checkout the code from SCM (Git, SVN, etc.)
+        checkout scm
+        if(isUnix()){
+            echo "This is from Unix"
+        } else {
+            echo "NOT This is from Unix"
+        }
+        bat 'mkdir abc'
+    }
+
+    stage('Build') {
+        // Perform build steps
+        echo 'This is scripted pipeline as it is started with node.'
+       sh "mvn test"
+
+    }
+
+    stage('Test') {
+        // Perform test steps
+        echo 'Hello Test'
+        // Add your actual test commands here
+    }
+
+    // Post-build actions
+    try {
+        // Run always regardless of the pipeline status
+        echo "ran successfully"
+        emailext body: 'Test Body content', subject: 'Test Email From Jenkins', to: 'shiva509203@gmail.com'
+    } catch (Exception e) {
+        // Handle any exceptions if needed
+        echo "Pipeline failed: ${e.message}"
+        currentBuild.result = 'FAILURE'
+        emailext body: "Pipeline failed: ${e.message}", subject: 'Pipeline Failure Notification', to: 'shiva509203@gmail.com'
+        throw e
+    }
+}

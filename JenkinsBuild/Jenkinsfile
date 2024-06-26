@@ -1,0 +1,37 @@
+pipeline {
+    agent any
+
+    environment {
+        PATH = "C:\\Windows\\System32"
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                // Declarative checkout step
+                checkout scm
+                bat 'rmdir /s /q abc'
+                bat 'mkdir abc'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Step One - build is done'
+              
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Hello Test'
+             
+            }
+        }
+    }
+    post {
+        always{
+            echo "ran successsfully"
+            emailext body: 'Test Body content', subject: 'Test Email From Jenkins', to: 'shiva5092031@gmail.com'
+        }
+        
+    }
+}
