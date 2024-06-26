@@ -16,7 +16,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Step One - build is done'
-               build 'JobA'
+              
             }
         }
         stage('Test') {
