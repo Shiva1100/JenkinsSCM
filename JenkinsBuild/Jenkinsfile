@@ -30,7 +30,7 @@ pipeline {
     post {
         always{
             echo "ran successsfully"
-            emailext body: 'Test Body content', subject: 'Test Email From Jenkins', to: 'shiva509203@gmail.com'
+            emailext body: 'Test Body content', subject: 'Test Email From Jenkins', to: 'shiva5092031@gmail.com'
         }
         
     }
