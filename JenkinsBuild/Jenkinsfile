@@ -10,7 +10,7 @@ pipeline {
             steps {
                 // Declarative checkout step
                 checkout scm
-                bat 'rm -r abc'
+                bat 'rmdir /s /q abc'
                 bat 'mkdir abc'
             }
         }
