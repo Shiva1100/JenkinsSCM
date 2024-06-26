@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="107" started-at="2024-06-25T12:47:00 IST" finished-at="2024-06-25T12:47:00 IST">
+  <suite name="Suite" duration-ms="51" started-at="2024-06-26T21:17:40 IST" finished-at="2024-06-26T21:17:40 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="107" started-at="2024-06-25T12:47:00 IST" finished-at="2024-06-25T12:47:00 IST">
+    <test name="Test" duration-ms="51" started-at="2024-06-26T21:17:40 IST" finished-at="2024-06-26T21:17:40 IST">
       <class name="Testng.JenkinsBuild.MainClass">
-        <test-method status="PASS" signature="oneMethod()[pri:1, instance:Testng.JenkinsBuild.MainClass@63e2203c]" name="oneMethod" duration-ms="13" started-at="2024-06-25T12:47:00 IST" finished-at="2024-06-25T12:47:00 IST">
+        <test-method status="PASS" signature="oneMethod()[pri:1, instance:Testng.JenkinsBuild.MainClass@5e853265]" name="oneMethod" duration-ms="7" started-at="2024-06-26T21:17:40 IST" finished-at="2024-06-26T21:17:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oneMethod -->
-        <test-method status="PASS" signature="twoMethod()[pri:2, instance:Testng.JenkinsBuild.MainClass@63e2203c]" name="twoMethod" duration-ms="4" started-at="2024-06-25T12:47:00 IST" finished-at="2024-06-25T12:47:00 IST">
+        <test-method status="PASS" signature="twoMethod()[pri:2, instance:Testng.JenkinsBuild.MainClass@5e853265]" name="twoMethod" duration-ms="1" started-at="2024-06-26T21:17:40 IST" finished-at="2024-06-26T21:17:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoMethod -->
-        <test-method status="PASS" signature="threeMethod()[pri:3, instance:Testng.JenkinsBuild.MainClass@63e2203c]" name="threeMethod" duration-ms="2" started-at="2024-06-25T12:47:00 IST" finished-at="2024-06-25T12:47:00 IST">
+        <test-method status="PASS" signature="threeMethod()[pri:3, instance:Testng.JenkinsBuild.MainClass@5e853265]" name="threeMethod" duration-ms="1" started-at="2024-06-26T21:17:40 IST" finished-at="2024-06-26T21:17:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- threeMethod -->
-        <test-method status="PASS" signature="singInMethod()[pri:4, instance:Testng.JenkinsBuild.MainClass@63e2203c]" name="singInMethod" duration-ms="3" started-at="2024-06-25T12:47:00 IST" finished-at="2024-06-25T12:47:00 IST">
+        <test-method status="PASS" signature="singInMethod()[pri:4, instance:Testng.JenkinsBuild.MainClass@5e853265]" name="singInMethod" duration-ms="1" started-at="2024-06-26T21:17:40 IST" finished-at="2024-06-26T21:17:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singInMethod -->
