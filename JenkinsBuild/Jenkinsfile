@@ -10,6 +10,7 @@ pipeline {
             steps {
                 // Declarative checkout step
                 checkout scm
+                bat 'mvn test'
             }
         }
         stage('Build') {
