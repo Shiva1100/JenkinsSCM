@@ -7,8 +7,9 @@ public class MainClass {
 	public void oneMethod() {
 		System.out.println("Launching browser");
 	}
-	@Test(priority = 2)
-	public void twoMethod() {
+	@Test(priority = 2,timeOut = 3000)
+	public void twoMethod() throws InterruptedException {
+		Thread.sleep(5000);
 		System.out.println("Enter URL");
 	}
 	
