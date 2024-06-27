@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3077" started-at="2024-06-27T09:25:12 IST" finished-at="2024-06-27T09:25:15 IST">
+  <suite name="Suite" duration-ms="3074" started-at="2024-06-27T10:13:55 IST" finished-at="2024-06-27T10:13:58 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3077" started-at="2024-06-27T09:25:12 IST" finished-at="2024-06-27T09:25:15 IST">
+    <test name="Test" duration-ms="3074" started-at="2024-06-27T10:13:55 IST" finished-at="2024-06-27T10:13:58 IST">
       <class name="Testng.JenkinsBuild.MainClass">
-        <test-method status="PASS" signature="oneMethod()[pri:1, instance:Testng.JenkinsBuild.MainClass@6737fd8f]" name="oneMethod" duration-ms="9" started-at="2024-06-27T09:25:12 IST" finished-at="2024-06-27T09:25:12 IST">
+        <test-method status="PASS" signature="oneMethod()[pri:1, instance:Testng.JenkinsBuild.MainClass@6737fd8f]" name="oneMethod" duration-ms="7" started-at="2024-06-27T10:13:55 IST" finished-at="2024-06-27T10:13:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oneMethod -->
-        <test-method status="FAIL" signature="twoMethod()[pri:2, instance:Testng.JenkinsBuild.MainClass@6737fd8f]" name="twoMethod" duration-ms="3016" started-at="2024-06-27T09:25:12 IST" finished-at="2024-06-27T09:25:15 IST">
+        <test-method status="FAIL" signature="twoMethod()[pri:2, instance:Testng.JenkinsBuild.MainClass@6737fd8f]" name="twoMethod" duration-ms="3016" started-at="2024-06-27T10:13:55 IST" finished-at="2024-06-27T10:13:58 IST">
           <exception class="org.testng.internal.thread.ThreadTimeoutException">
             <message>
               <![CDATA[Method Testng.JenkinsBuild.MainClass.twoMethod() didn't finish within the time-out 3000]]>
@@ -49,15 +49,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoMethod -->
-        <test-method status="PASS" signature="threeMethod()[pri:3, instance:Testng.JenkinsBuild.MainClass@6737fd8f]" name="threeMethod" duration-ms="2" started-at="2024-06-27T09:25:15 IST" finished-at="2024-06-27T09:25:15 IST">
+        <test-method status="PASS" signature="threeMethod()[pri:3, instance:Testng.JenkinsBuild.MainClass@6737fd8f]" name="threeMethod" duration-ms="3" started-at="2024-06-27T10:13:58 IST" finished-at="2024-06-27T10:13:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- threeMethod -->
-        <test-method status="PASS" signature="singInMethod()[pri:4, instance:Testng.JenkinsBuild.MainClass@6737fd8f]" name="singInMethod" duration-ms="0" started-at="2024-06-27T09:25:15 IST" finished-at="2024-06-27T09:25:15 IST">
+        <test-method status="PASS" signature="singInMethod()[pri:4, instance:Testng.JenkinsBuild.MainClass@6737fd8f]" name="singInMethod" duration-ms="1" started-at="2024-06-27T10:13:58 IST" finished-at="2024-06-27T10:13:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singInMethod -->
       </class> <!-- Testng.JenkinsBuild.MainClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
