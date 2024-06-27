@@ -1,63 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3074" started-at="2024-06-27T10:13:55 IST" finished-at="2024-06-27T10:13:58 IST">
+  <suite started-at="2024-06-27T19:00:24 IST" name="Default suite" finished-at="2024-06-27T19:00:30 IST" duration-ms="5604">
     <groups>
     </groups>
-    <test name="Test" duration-ms="3074" started-at="2024-06-27T10:13:55 IST" finished-at="2024-06-27T10:13:58 IST">
-      <class name="Testng.JenkinsBuild.MainClass">
-        <test-method status="PASS" signature="oneMethod()[pri:1, instance:Testng.JenkinsBuild.MainClass@6737fd8f]" name="oneMethod" duration-ms="7" started-at="2024-06-27T10:13:55 IST" finished-at="2024-06-27T10:13:55 IST">
+    <test started-at="2024-06-27T19:00:24 IST" name="Default test" finished-at="2024-06-27T19:00:30 IST" duration-ms="5604">
+      <class name="Testng.JenkinsBuild.LoginTest">
+        <test-method signature="oneMethod()[pri:1, instance:Testng.JenkinsBuild.LoginTest@4ac3c60d]" started-at="2024-06-27T19:00:24 IST" name="oneMethod" finished-at="2024-06-27T19:00:27 IST" duration-ms="2569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oneMethod -->
-        <test-method status="FAIL" signature="twoMethod()[pri:2, instance:Testng.JenkinsBuild.MainClass@6737fd8f]" name="twoMethod" duration-ms="3016" started-at="2024-06-27T10:13:55 IST" finished-at="2024-06-27T10:13:58 IST">
-          <exception class="org.testng.internal.thread.ThreadTimeoutException">
-            <message>
-              <![CDATA[Method Testng.JenkinsBuild.MainClass.twoMethod() didn't finish within the time-out 3000]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method Testng.JenkinsBuild.MainClass.twoMethod() didn't finish within the time-out 3000
-at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
-at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+        <test-method signature="testTwoMethod()[pri:2, instance:Testng.JenkinsBuild.LoginTest@4ac3c60d]" started-at="2024-06-27T19:00:27 IST" name="testTwoMethod" finished-at="2024-06-27T19:00:30 IST" duration-ms="2878" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- twoMethod -->
-        <test-method status="PASS" signature="threeMethod()[pri:3, instance:Testng.JenkinsBuild.MainClass@6737fd8f]" name="threeMethod" duration-ms="3" started-at="2024-06-27T10:13:58 IST" finished-at="2024-06-27T10:13:58 IST">
+        </test-method> <!-- testTwoMethod -->
+        <test-method signature="threeMethod()[pri:3, instance:Testng.JenkinsBuild.LoginTest@4ac3c60d]" started-at="2024-06-27T19:00:30 IST" name="threeMethod" finished-at="2024-06-27T19:00:30 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- threeMethod -->
-        <test-method status="PASS" signature="singInMethod()[pri:4, instance:Testng.JenkinsBuild.MainClass@6737fd8f]" name="singInMethod" duration-ms="1" started-at="2024-06-27T10:13:58 IST" finished-at="2024-06-27T10:13:58 IST">
+        <test-method signature="singInMethod()[pri:4, instance:Testng.JenkinsBuild.LoginTest@4ac3c60d]" started-at="2024-06-27T19:00:30 IST" name="singInMethod" finished-at="2024-06-27T19:00:30 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singInMethod -->
-      </class> <!-- Testng.JenkinsBuild.MainClass -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testng.JenkinsBuild.LoginTest@4ac3c60d]" started-at="2024-06-27T19:00:30 IST" name="closeBrowser" finished-at="2024-06-27T19:00:30 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testng.JenkinsBuild.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
